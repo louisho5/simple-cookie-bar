@@ -4,7 +4,7 @@ Version 1.0.0
 
 ## Summary
 
-Simple Javascript plugin for generating a cookie bar easily 
+Generate a simple cookie bar in one line of code 
 
 ## Author
 
@@ -33,12 +33,12 @@ Works in IE9+, Chrome 14+, Safari 4+, Firefox 3.0+, Opera 10+.
 	
 	<script src="cookieBar.min.js"></script>
 	<script>
-	new cookieBar();
+		new cookieBar();
 	</script>
 
 ## Parameters
 
-There are totally 4 functions are provided in this plugin:
+There are 4 parameters are optionals in this plugin:
 
 is used to load external HTML file as html format into your element.
 
