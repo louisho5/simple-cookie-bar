@@ -33,7 +33,7 @@ Works in IE9+, Chrome 14+, Safari 4+, Firefox 3.0+, Opera 10+.
 	
 	<script src="cookieBar.min.js"></script>
 	<script>
-		new cookieBar();
+	    new cookieBar();
 	</script>
 
 ## Parameters
@@ -43,10 +43,10 @@ There are 4 parameters are optionals in this plugin:
 is used to load external HTML file as html format into your element.
 
 	new cookieBar({
-		selector: "#cookieBar",
-		message: 'We use cookies to ensure that we give you the best experience on our website. Please find more information <a href="#" target="_blank">here</a>.',
-		btnText: 'ACCEPT',
-		color: '#666',
+	    selector: "#cookieBar",
+	    message: 'We use cookies to ensure that we give you the best experience on our website. Please find more information <a href="#" target="_blank">here</a>.',
+	    btnText: 'ACCEPT',
+	    color: '#666',
 	});		
 
 ## License
