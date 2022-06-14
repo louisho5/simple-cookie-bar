@@ -25,6 +25,10 @@ var cookieBar = function (options) {
 	if (this.options.theme == undefined) {
 		this.options.theme = '#666';
 	}
+	if (this.options.expire == undefined) {
+		this.options.expire = 24;
+	}
+	var ccExpire = this.options.expire;
 	var ccbar = document.querySelector(this.options.selector);
 	var ccbarMsgBox = document.createElement('div');
 	ccbarMsgBox.classList.add("cc-bar-col");
@@ -45,7 +49,7 @@ var cookieBar = function (options) {
 		// Update cookies when clicked button
 		ccbarBtnBox.querySelector(".cc-bar-btn").addEventListener('click', function (e) {
 			e.preventDefault();
-			setCookie("cc-bar-cookies", "accepted", 7);
+			setCookie("cc-bar-cookies", "accepted", ccExpire);
 			ccbar.style.animation =
 				"cc-bar-fadeOut 0.5s ease both";
 			setTimeout(function () {
@@ -58,8 +62,7 @@ var cookieBar = function (options) {
 	var setCookie = function (name, value, expireHrs) {
 		var d = new Date();
 		d.setTime(d.getTime() + expireHrs * 60 * 60 * 1000);
-		document.cookie =
-			name + "=" + value + ";" + "expires=" + d.toUTCString() + ";path=/";
+		document.cookie = name + "=" + value + ";" + "expires=" + d.toUTCString() + ";path=/";
 	}
 
 	var getCookie = function (name) {
