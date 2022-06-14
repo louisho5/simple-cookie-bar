@@ -23,7 +23,7 @@ or
 
 ## Requirements/Browsers
 
-Works in IE9+, Chrome 14+, Safari 4+, Firefox 3.0+, Opera 10+.
+Works in IE11+, Edge 12+, Chrome 29+, Safari 9+, Firefox 28+.
 
 ## Code Example
 
@@ -38,9 +38,9 @@ Works in IE9+, Chrome 14+, Safari 4+, Firefox 3.0+, Opera 10+.
 
 ## Parameters
 
-There are 4 parameters are optionals in this plugin:
+There are 4 optional parameters in this plugin:
 
-is used to load external HTML file as html format into your element.
+```js script
 
 	new cookieBar({
 	    selector: "#cookieBar",
@@ -48,6 +48,8 @@ is used to load external HTML file as html format into your element.
 	    btnText: 'ACCEPT',
 	    color: '#666',
 	});		
+
+```
 
 ## License
 
