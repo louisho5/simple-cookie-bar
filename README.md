@@ -46,7 +46,8 @@ new cookieBar({
     selector: "#cookieBar",
     message: 'We use cookies to ensure that we give you the best experience on our website. Please find more information <a href="#" target="_blank">here</a>.',
     btnText: 'ACCEPT',
-    color: '#666'
+    color: '#666',
+    expire: 24	//Expire in 24 hours you can set "24*7" for 7 days
 });		
 
 ```
