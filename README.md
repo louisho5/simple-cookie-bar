@@ -46,7 +46,7 @@ new cookieBar({
     selector: "#cookieBar",
     message: 'We use cookies to ensure that we give you the best experience on our website. Please find more information <a href="#" target="_blank">here</a>.',
     btnText: 'ACCEPT',
-    color: '#666',
+    color: '#666'
 });		
 
 ```
