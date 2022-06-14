@@ -19,11 +19,11 @@ var cookieBar = function (options) {
 	if (this.options.message == undefined) {
 		this.options.message = 'We use cookies to ensure that we give you the best experience on our website. Please find more information <a href="#" target="_blank">here</a>.';
 	}
-	if (this.options.btnText == undefined) {
-		this.options.btnText = 'ACCEPT';
+	if (this.options.button == undefined) {
+		this.options.button = 'ACCEPT';
 	}
-	if (this.options.color == undefined) {
-		this.options.color = '#666';
+	if (this.options.theme == undefined) {
+		this.options.theme = '#666';
 	}
 	var ccbar = document.querySelector(this.options.selector);
 	var ccbarMsgBox = document.createElement('div');
@@ -32,7 +32,7 @@ var cookieBar = function (options) {
 	ccbar.appendChild(ccbarMsgBox);
 	var ccbarBtnBox = document.createElement('div');
 	ccbarBtnBox.classList.add("cc-bar-col");
-	ccbarBtnBox.innerHTML = '<a class="cc-bar-btn" href="#">' + this.options.btnText + '</a>';
+	ccbarBtnBox.innerHTML = '<a class="cc-bar-btn" href="#">' + this.options.button + '</a>';
 	ccbar.appendChild(ccbarBtnBox);
 
 	// Check if cookie has been accepted
@@ -92,7 +92,7 @@ var cookieBar = function (options) {
 		width: calc(100% - 30px);\
 		box-shadow: 0 -1px 10px 0 rgba(170, 170, 170, 0.3);\
 		box-sizing: border-box;\
-		border: 3px solid " + this.options.color + ";\
+		border: 3px solid " + this.options.theme + ";\
 		border-radius: 7px;\
 	}"
 	+ this.options.selector + " .cc-bar-col {\
@@ -104,7 +104,7 @@ var cookieBar = function (options) {
 		padding: 7px 15px;\
 		margin: 0 0 0 10px;\
 		color: white;\
-		background-color: " + this.options.color + ";\
+		background-color: " + this.options.theme + ";\
 		text-decoration: none;\
 		white-space: nowrap;\
 		text-align: center;\
