@@ -46,7 +46,7 @@ new cookieBar({
     selector: "#cookieBar",
     message: 'We use cookies to ensure that we give you the best experience on our website. Please find more information <a href="#" target="_blank">here</a>.',
     button: 'ACCEPT',
-    color: '#666',
+    theme: '#666',
     expire: 24	//By default it will expire in 24 hours, you can set your own duration e.g. 24*7 for 7 days
 });		
 
