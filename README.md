@@ -29,12 +29,16 @@ Works in IE11+, Edge 12+, Chrome 29+, Safari 9+, Firefox 28+.
 
 **index.html**:
 
-	<div id="cookieBar"></div>
+```html
+
+<div id="cookieBar"></div>
+
+<script src="cookieBar.min.js"></script>
+<script>
+    new cookieBar();
+</script>
 	
-	<script src="cookieBar.min.js"></script>
-	<script>
-	    new cookieBar();
-	</script>
+```
 
 ## Parameters
 
