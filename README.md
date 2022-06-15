@@ -6,9 +6,9 @@ Version 1.0.0
 
 Generate a simple cookie bar in single line of code. 
 
-<strong>Super lightweight, only 3KB</strong><br>
-<strong>Responsive design</strong><br>
-<strong>Minimal and ease to use</strong><br>
+* <strong>Super lightweight, only 3KB</strong><br>
+* <strong>Responsive design</strong><br>
+* <strong>Minimal and ease to use</strong><br>
 
 ## Author
 
