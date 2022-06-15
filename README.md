@@ -18,12 +18,20 @@ Generate a simple cookie bar in single line of code.
 
 To include the plugin in your code:
 
-	<script src="cookieBar.js"></script>
-	
+```js script
+
+<script src="cookieBar.js"></script>
+
+```
+
 or
 
-	<script src="cookieBar.min.js"></script>
 
+```js script
+
+<script src="cookieBar.min.js"></script>
+	
+```
 
 ## Requirements/Browsers
 
@@ -46,7 +54,7 @@ Works in IE11+, Edge 12+, Chrome 29+, Safari 9+, Firefox 28+.
 
 ## Parameters
 
-There are 4 optional parameters in this plugin:
+There are 5 optional parameters in this plugin:
 
 ```js script
 
