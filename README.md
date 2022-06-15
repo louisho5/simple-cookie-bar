@@ -37,7 +37,7 @@ Works in IE11+, Edge 12+, Chrome 29+, Safari 9+, Firefox 28+.
 <script>
     new cookieBar();
 </script>
-	
+
 ```
 
 ## Parameters
