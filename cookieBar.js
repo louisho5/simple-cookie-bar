@@ -14,13 +14,13 @@ var cookieBar = function (options) {
 	}
 	// Set options to default value when not set manually
 	if (this.options.selector == undefined) {
-		this.options.selector = "#cookieBar";
+		this.options.selector = '#cookieBar';
 	}
 	if (this.options.message == undefined) {
-		this.options.message = 'We use cookies to ensure that we give you the best experience on our website. Please find more information <a href="#" target="_blank">here</a>.';
+		this.options.message = 'By using our site you agree to our use of cookies to give you the best experience on our website.';
 	}
 	if (this.options.button == undefined) {
-		this.options.button = 'ACCEPT';
+		this.options.button = 'GOT IT';
 	}
 	if (this.options.theme == undefined) {
 		this.options.theme = '#666';
@@ -122,7 +122,7 @@ var cookieBar = function (options) {
 	}\
 	@media only screen and (max-width: 991px) {"
 		+ this.options.selector + " {\
-			font-size: 18px;\
+			font-size: 16px;\
 			flex-direction: column;\
 			margin: 0;\
 			width: 100%;\
@@ -132,7 +132,7 @@ var cookieBar = function (options) {
 			width: 100%;\
 		}"
 		+ this.options.selector + " .cc-bar-col .cc-bar-btn {\
-			font-size: 18px;\
+			font-size: 16px;\
 			margin: 10px 0 0 0;\
 		}\
 	}\
