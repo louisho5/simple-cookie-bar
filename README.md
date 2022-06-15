@@ -4,7 +4,11 @@ Version 1.0.0
 
 ## Summary
 
-Generate a simple cookie bar in one line of code 
+Generate a simple cookie bar in single line of code. 
+
+#Super lightweight, only 3KB
+#Responsive design
+#Minimal and ease to use
 
 ## Author
 
