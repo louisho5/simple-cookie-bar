@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example for Simple Cookie Bar</title>
+<meta charset="utf-8">
+</head>
+<body>
+
+<h1>Example for Simple Cookie Bar</h1>
+<div id="cookieBar"></div>
+
+<script src="../cookieBar.min.js"></script>
+<script>
+	new cookieBar({
+		selector: "#cookieBar",
+		message: 'We use cookies to ensure that we give you the best experience on our website. Please find more information <a href="#" target="_blank">here</a>.',
+		button: 'ACCEPT',
+		theme: '#666666',
+		expire: 24	//By default it will expire in 24 hours, you can set your own duration e.g. 24*7 for 7 days
+	});
+</script>
+
+</body>
+</html>
